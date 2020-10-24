@@ -9,7 +9,7 @@ setuptools.setup(
     name="database_migration",
     version="0.0.1",
 
-    description="An empty CDK Python app",
+    description="In this course you will learn the value and process of moving from self-managed databases (on premises or in the cloud) into fully managed Amazon Web Services (AWS) database solutions.",
     long_description=long_description,
     long_description_content_type="text/markdown",
 
@@ -19,7 +19,7 @@ setuptools.setup(
     packages=setuptools.find_packages(where="database_migration"),
 
     install_requires=[
-        "aws-cdk.core==1.66.0",
+        "aws-cdk.core==1.70.0",
     ],
 
     python_requires=">=3.6",
